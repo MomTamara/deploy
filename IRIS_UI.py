@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import numpy as np
 
-model = joblib.load('deploy/Esther.pkl')
+model = joblib.load('Esther.pkl')
 st.title('Iris Flower Predictor')
 
 
